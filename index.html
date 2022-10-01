@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta name="author" content="Simon Pineda">
+    <meta name="Copyright" content="Copyright ©SimonPine 2022">
+    <meta charset="UTF-8">
+    <title>Pokedex - Filter</title> 
+    <link rel="shortcut icon" href="./img/logo.svg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bg">
+    <input type="text" id="nameFilter" placeholder="Filter by pokemon's name" class="filterInput">
+    <nav class="filtro">
+        <button class="opener" id="fil"></button>
+        <div class="open open2" id="select">
+            <select id="gen" class="generation">
+                <option selected disabled>Pokemon generation</option>
+                <option value="1" name="1">1</option>
+                <option value="2" name="2">2</option>
+                <option value="3" name="3">3</option>
+                <option value="4" name="4">4</option>
+                <option value="5" name="5">5</option>
+                <option value="6" name="6">6</option>
+                <option value="7" name="7">7</option>
+                <option value="8" name="8">8</option>
+            </select>
+            <div class="in">
+               <label class="container">Bug
+                   <input type="radio" name="type" class="type" value="bug">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Dark
+                   <input type="radio" name="type" class="type" value="dark">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Dragon
+                   <input type="radio" name="type" class="type" value="dragon">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Electric
+                   <input type="radio" name="type" class="type" value="electric">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Fairy
+                   <input type="radio" name="type" class="type" value="fairy">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Fighting
+                   <input type="radio" name="type" class="type" value="fighting">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Fire
+                   <input type="radio" name="type" class="type" value="fire">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Flying
+                   <input type="radio" name="type" class="type" value="flying">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Ghost
+                   <input type="radio" name="type" class="type" value="ghost">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Grass
+                   <input type="radio" name="type" class="type" value="grass">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Ground
+                   <input type="radio" name="type" class="type" value="ground">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Ice
+                   <input type="radio" name="type" class="type" value="ice">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Normal
+                   <input type="radio" name="type" class="type" value="normal">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Poison
+                   <input type="radio" name="type" class="type" value="poison">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Psychic
+                   <input type="radio" name="type" class="type" value="psychic">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Rock
+                   <input type="radio" name="type" class="type" value="rock">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Steel
+                   <input type="radio" name="type" class="type" value="steel">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">Water
+                   <input type="radio" name="type" class="type" value="water">
+                   <span class="checkmark"></span>
+                 </label>
+                 <label class="container">All
+                    <input type="radio" name="type" class="type" value="all">
+                    <span class="checkmark"></span>
+                  </label>
+                 <button class="fil" id="filter">Filter</button>
+            </div>
+        </div>
+    </nav>
+    <main id="container">
+    </main>
+    <footer>
+        <section id="redes_sociales">
+            <a href="https://www.instagram.com/simonpineda0521/" target="_blank">
+                <img src="./img/insta.png" alt="instagram logo" >
+            </a>
+            <a href="https://github.com/simonpine" target="_blank">
+                <img src="./img/facebook.png" alt="facebook logo" >
+            </a>
+            <a href="https://twitter.com/SimonPine2" target="_blank">
+                <img src="./img/twitter.png" alt="twitter logo" >
+            </a>
+        </section>
+        <div id="copy">
+            <img src="./img/logo1.svg" alt="logo de arquitectos asociados sin fondo" id="logoB" class="iconos_footer">
+            <h2 id="copy" class="footerScript">Copyright ©SimonPine 2022</h2>
+        </div>
+        <section id="info_contacto">
+            <div>
+                <h2 class="footerScript"><img src="./img/phone.png" alt="telefono icono" class="iconos_footer2">(+57) 302 423 9835</h2>
+            </div>
+            <div>
+                <h2 class="footerScript"><img src="./img/mail.png" alt="correo icono" class="iconos_footer2">simonpineda0521@gmail.com</h2>
+            </div>
+    </section>
+    </footer>
+    <script src="/filtro.js"></script>
+</body>
