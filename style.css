@@ -287,8 +287,7 @@ footer, .footer1 {
     width: 90%;
   }
   .padingL{
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px;
   }
   .main{
     font-family: "Exo 2", sans-serif;
@@ -328,5 +327,57 @@ footer, .footer1 {
     }
     .fil{
       font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 1315px){
+    .card{
+      width: 40vw;
+      height: auto;
+    }
+    .side{
+      height: auto;
+    }
+    .padingL{
+      margin: 10px;
+    }
+    .filterInput{
+      width: 80%;
+      left: 15%;
+    }
+    footer{
+      padding: 20px;
+      height: 
+      auto;
+    }
+  }
+  @media screen and (max-width: 773px) {
+    .card{
+      width: 90vw;
+      height: auto;
+    }
+    .side{
+      height: auto;
+    }
+    .padingL{
+      margin: 10px;
+    }
+    .generation{
+      font-size: 14px;
+    }
+    footer{
+      padding: 20px;
+      height: 
+      auto;
+    }
+  }
+  @media screen and (max-width: 700px){
+    .filterInput{
+      width: 65%;
+      left:30%;
+    }
+    footer{
+      padding: 20px;
+      height: 
+      auto;
     }
   }
